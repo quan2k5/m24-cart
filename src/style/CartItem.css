@@ -1,0 +1,35 @@
+tr{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+td:first-child{
+    width: 30px;
+}
+td:nth-child(2){
+    width: 200px;
+}
+img{
+    height: 30px;
+    width: 30px;
+}
+.action-box{
+    display: flex;
+    align-items: center;
+}
+.box{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.box:first-child,.box:last-child{
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+
+}
+

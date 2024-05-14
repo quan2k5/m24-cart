@@ -1,0 +1,21 @@
+.total{
+    width: 500px;
+    min-height: 200px;
+    position: absolute;
+    top: 40px;
+    right:-5px;
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
+}
+.table-cart{
+    width: 500px;
+    padding: 10px;
+}
+.footer-part{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-part td{
+    display: flex;
+    justify-content: flex-end;
+}

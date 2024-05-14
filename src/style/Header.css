@@ -1,0 +1,37 @@
+header{
+    background-color: rgba(255, 68, 0, 0.753);
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.right-part span{
+    margin-right: 15px;
+    font-size: large;
+    font-weight: 500;
+    color: white;
+}
+.left-part{
+    position: relative;
+}
+.left-part i{
+    color: white;
+    font-size: larger;
+    margin-right: 10px;
+}
+.left-part .number-cart{
+    width: 18px;
+    height: 13px;
+    position: absolute;
+    background-color:red;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+    top:0;
+    cursor: pointer;
+    left:15px;
+}
